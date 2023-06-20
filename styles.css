@@ -1,0 +1,16 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 95vh;
+}
+
+h2{
+  transition: 0.2s all ease;
+  font-size: 100px;
+}
+
+h2:hover{
+  text-shadow: red -3px 0, cyan 3px 0;
+  transition: 0.2s all ease;
+}
